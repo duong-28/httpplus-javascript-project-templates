@@ -1,5 +1,5 @@
 body {
-    background-color: #fef5e7;
+    background-color: #575468;
     font-family: serif;
     margin: 10px;
 }
@@ -16,7 +16,7 @@ h1 {
     left: 50%;
     top: 50%;
     background-color: #fff;
-    color: #000;
+    color: #312e42;
     box-shadow: 0px 0px 5px 0px #888;
     padding-bottom: 30px;
 }
@@ -60,12 +60,24 @@ ul {
 li {
     list-style: none;
     padding-left: 5px;
+    margin-right: 200px;
+    display: flex;
+    justify-content:space-between;
+}
+
+li button {
+    font-size: 9px;
+    padding: 2px 8px;
+    cursor: pointer;
+    height: 22px;
+    background-color: lightgray;
+    border: 1px solid #000;
 }
 
 #inputs {
     margin: 0px 0 0 62px;
     line-height: 25px;
-}
+}  
 
 input {
     border: 1px solid #000;
@@ -82,4 +94,14 @@ input[type="button"] {
 
 input[type="button"]:hover {
     box-shadow: 0px 0px 3px grey;
+}
+
+#button {
+    margin: 0px 0 0 62px;
+    line-height: 25px;
+}
+
+.bought {
+    text-decoration: line-through;
+    color: gray;
 }

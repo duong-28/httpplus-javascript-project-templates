@@ -1,5 +1,5 @@
 body {
-    background-color: #cb0162;
+    background-color: #ba301e;
     font-family: sans-serif;
     color: #062e03;
     text-align: center;
@@ -24,15 +24,20 @@ body {
 
 input[type="button"] {
     border: 1px solid #062e03;
-    background-color: #cb0162;
+    background-color: #156f5d;
     color: #fff;
     border-radius: 3px;
     padding: 2px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 60px;
     height: 40px;
 }
 
 input[type="button"]:hover {
     box-shadow: 0px 0px 5px #062e03;
+}
+
+input[type="text"] {
+    margin: 10px auto;
+    display: block;
 }
